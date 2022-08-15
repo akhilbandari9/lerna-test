@@ -6,7 +6,8 @@
 	],
 	"scripts": {
 		"ums:start": "cd packages/ums && yarn start --PORT=3000",
-		"fees:start": "cd packages/fees && yarn start --PORT=3001"
+		"fees:start": "cd packages/fees && yarn start --PORT=3001",
+		"build": "lerna run build"
 	},
 	"dependencies": {
 		"@craco/craco": "^6.4.5",
